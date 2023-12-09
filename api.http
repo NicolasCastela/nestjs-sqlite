@@ -1,0 +1,28 @@
+###
+POST http://localhost:3000/category
+Content-Type: application/json
+
+{
+  "name": "Anielly"
+}
+
+
+
+###
+GET http://localhost:3000/category
+
+###
+GET http://localhost:3000/category/2
+
+###
+PATCH http://localhost:3000/category/3
+Content-Type: application/json
+
+{
+  "name" : "Marcel"
+}
+
+
+
+###
+DELETE http://localhost:3000/category/3
